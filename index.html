@@ -4,8 +4,349 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency hotline</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
 </head>
 <body>
+    <header>
+       <nav class=" sm:flex justify-between mt-7 max-w-5xl m-auto">
+        <div >
+            <div class=" sm:flex text-green-800  font-bold gap-2 ">
+                <img src="images/logo.png" class="size-10" alt="">
+
+           <h3 class=" sm:w-3 text-sm">Emergency Service</h3>
+            </div>
+
+        </div>
+        <div class="sm:flex gap-5">
+            <aside class="sm:flex bg-green-200 sm:w-20 smh-8 justify-center items-center gap-1 rounded-xl sm:p-2">
+                <p class="font-bold">0</p>
+                <img src="images/heart.png" class="size-5" alt="">
+            </aside>
+            <aside  class="sm:flex  bg-green-200 sm:w-20 sm:h-8 justify-center items-center gap-1 rounded-xl">
+                <p class="font-bold ">100</p>
+                <img src="images/coin.png" class="size-5" alt="">
+            </aside>
+            <aside  class="sm:flex bg-green-600 sm:w-20 h-8 justify-center items-center gap-1 rounded-xl px-2">
+                <p class="font-semibold text-white">2 copy</p>
+            </aside>
+        </div>
+       </nav>
+    </header>
+
+    <main>
+        
+        
+        <div class="bg-green-900 mx-w-3xl m-auto sm:flex sm:flex-col justify-center items-center py-5">
+            <img src="images/logo.png" class="size-15 mr-20 " alt="">
+          
+            <h1 class="text-xl text-white font-bold mr-20 ">Emergency Service Directory</h1>
+          <p class="text-sm text-white mr-20 ">Government Emergency Services at Your Fingertip – A Project by
+              Government of the People’s Republic of Bangladesh</p>
+        </div>
+          
+        <div class=" bg-green-100  sm:flex ">
+            <div class=" grid grid-cols-3 gap-8  max-w-2xl m-auto">
+                <div class="bg-white p-4 rounded-sm mt-8 shadow-lg">
+                <div class="sm:flex justify-between">
+                    <img src="images/emergency.png" class="bg-red-200 py-2 size-10 rounded-sm" alt="">
+                    <img src="images/heart.svg " class="size-7 " alt="">
+
+                </div>
+                    <h1 class="text-black font-bold  ">National Emergency Number</h1>
+                    <p class="text-sm">National Emergency</p>
+                    <h3 class="font-bold text-black mb-1">999</h3>
+                    <p class="bg-gray-200 p-1 
+                   sm:w-9 rounded-xl text-center mb-2">All</p>
+                    <div class="sm:flex gap-2">
+                        <div >                 
+                            <button class="rounded-md sm:w-20 border border-gray-400"  >
+                                <i class="fa-solid fa-copy "></i>
+                                copy</button>
+                        </div>
+                       <div > 
+                        <button class="bg-green-600 sm:w-20 rounded-md  text-white  ">
+                            <i class="fa-solid fa-phone text-green-200  "></i>
+                            
+                            call</button>
+                    </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-white p-4 rounded-sm mt-8 shadow-lg">
+                <div class="sm:flex justify-between">
+                    <img src="images/police.png" class=" bg-blue-200 py-2 size-10 rounded-sm" alt="">
+                    <img src="images/heart.svg " class="size-7 " alt="">
+
+                </div>
+                    <h1 class="text-black font-bold  ">Police Helpline Number</h1>
+                    <p class="text-sm">Police </p>
+                    <h3 class="font-bold text-black mb-1">999</h3>
+                    <p class="bg-gray-200 p-1 sm:w-13 rounded-xl text-center mb-2">police</p>
+                    <div class="sm:flex gap-2">
+                        <div >                 
+                            <button class="rounded-md sm:w-20 border border-gray-400"  >
+                                <i class="fa-solid fa-copy "></i>
+                                copy</button>
+                        </div>
+                       <div > 
+                        <button class="bg-green-600 sm:w-20 rounded-md  text-white  ">
+                            <i class="fa-solid fa-phone text-green-200  "></i>
+                            
+                            call</button>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="bg-white p-4 rounded-sm mt-8 shadow-lg">
+                <div class="sm:flex justify-between">
+                    <img src="images/fire-service.png" class="bg-red-200 py-2 size-10 rounded-sm" alt="">
+                    <img src="images/heart.svg " class="size-7 " alt="">
+
+                </div>
+                    <h1 class="text-black font-bold  ">Fire Service Number</h1>
+                    <p class="text-sm">Fire Service </p>
+                    <h3 class="font-bold text-black mb-1">999</h3>
+                    <p class="bg-gray-200 p-1 w-9 rounded-xl text-center mb-2">fire</p>
+                    <div class="sm:flex gap-2">
+                        <div >                 
+                            <button class="rounded-md w-20 border border-gray-400"  >
+                                <i class="fa-solid fa-copy "></i>
+                                copy</button>
+                        </div>
+                       <div > 
+                        <button class="bg-green-600 w-20 rounded-md  text-white  ">
+                            <i class="fa-solid fa-phone text-green-200  "></i>
+                            
+                            call</button>
+                    </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-white p-4 rounded-sm mt-4 shadow-lg">
+                <div class="sm:flex justify-between">
+                    <img src="images/ambulance.png" class="bg-red-200 py-2 size-10 rounded-sm" alt="">
+                    <img src="images/heart.svg " class="size-7 " alt="">
+
+                </div>
+                    <h1 class="text-black font-bold  ">Ambulance Service</h1>
+                    <p class="text-sm">Ambulance </p>
+                    <h3 class="font-bold text-black mb-1">1994-999999</h3>
+                    <p class="bg-gray-200 p-1 w-13 rounded-xl text-center mb-2">health</p>
+                    <div class="sm:flex gap-2">
+                        <div >                 
+                            <button class="rounded-md w-20 border border-gray-400"  >
+                                <i class="fa-solid fa-copy "></i>
+                                copy</button>
+                        </div>
+                       <div > 
+                        <button class="bg-green-600 w-20 rounded-md  text-white  ">
+                            <i class="fa-solid fa-phone text-green-200  "></i>
+                            
+                            call</button>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="bg-white p-4 rounded-sm mt-4 shadow-lg">
+                <div class="sm:flex justify-between">
+                    <img src="images/emergency.png" class="bg-red-200 py-2 size-10 rounded-sm" alt="">
+                    <img src="images/heart.svg " class="size-7 " alt="">
+
+                </div>
+                    <h1 class="text-black font-bold  ">Women & Child Helpline</h1>
+                    <p class="text-sm">Women & Child Helpline</p>
+                    <h3 class="font-bold text-black mb-1">109</h3>
+                    <p class="bg-gray-200 p-1 w-11 rounded-xl text-center mb-2">Help</p>
+                    <div class="sm:flex gap-2">
+                        <div >                 
+                            <button class="rounded-md w-20 border border-gray-400"  >
+                                <i class="fa-solid fa-copy "></i>
+                                copy</button>
+                        </div>
+                       <div > 
+                        <button class="bg-green-600 w-20 rounded-md  text-white  ">
+                            <i class="fa-solid fa-phone text-green-200  "></i>
+                            
+                            call</button>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="bg-white p-4 rounded-sm mt-4 shadow-lg">
+                <div class="sm:flex justify-between">
+                    <img src="images/emergency.png" class="bg-red-200 py-2 size-10 rounded-sm" alt="">
+                    <img src="images/heart.svg " class="size-7 " alt="">
+
+                </div>
+                    <h1 class="text-black font-bold  ">Anti-Corruption Helpline</h1>
+                    <p class="text-sm">Anti-Corruption</p>
+                    <h3 class="font-bold text-black mb-1">106</h3>
+                    <p class="bg-gray-200 p-1 w-13 rounded-xl text-center mb-2">Govt.</p>
+                    <div class="sm:flex gap-2">
+                        <div >                 
+                            <button class="rounded-md w-20 border border-gray-400"  >
+                                <i class="fa-solid fa-copy "></i>
+                                copy</button>
+                        </div>
+                       <div > 
+                        <button class="bg-green-600 w-20 rounded-md  text-white  ">
+                            <i class="fa-solid fa-phone text-green-200  "></i>
+                            
+                            call</button>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="bg-white p-4 rounded-sm mt-4 shadow-lg ">
+                <div class="sm:flex justify-between">
+                    <img src="images/emergency.png" class="bg-red-200 py-2 size-10 rounded-sm" alt="">
+                    <img src="images/heart.svg " class="size-7 " alt="">
+
+                </div>
+                    <h1 class="text-black font-bold  ">Electricity Helpline</h1>
+                    <p class="text-sm">Electricity Outage</p>
+                    <h3 class="font-bold text-black mb-1">16216</h3>
+                    <p class="bg-gray-200 p-1 w-19 rounded-xl text-center mb-2">Electricity </p>
+                    <div class="sm:flex gap-2">
+                        <div >                 
+                            <button class="rounded-md w-20 border border-gray-400"  >
+                                <i class="fa-solid fa-copy "></i>
+                                copy</button>
+                        </div>
+                       <div > 
+                        <button class="bg-green-600 w-20 rounded-md  text-white  ">
+                            <i class="fa-solid fa-phone text-green-200  "></i>
+                            
+                            call</button>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="bg-white p-4 rounded-sm mt-4 shadow-lg">
+                <div class="sm:flex justify-between">
+                    <img src="images/emergency.png" class="bg-red-200 py-2 size-10 rounded-sm" alt="">
+                    <img src="images/heart.svg " class="size-7 " alt="">
+
+                </div>
+                    <h1 class="text-black font-bold  ">Brac Helpline</h1>
+                    <p class="text-sm">Brac </p>
+                    <h3 class="font-bold text-black mb-1">16445</h3>
+                    <p class="bg-gray-200 p-1 w-12 rounded-xl text-center mb-2">NGO</p>
+                    <div class="sm:flex gap-2">
+                        <div >                 
+                            <button class="rounded-md w-20 border border-gray-400"  >
+                                <i class="fa-solid fa-copy "></i>
+                                copy</button>
+                        </div>
+                       <div > 
+                        <button class="bg-green-600 w-20 rounded-md  text-white  ">
+                            <i class="fa-solid fa-phone text-green-200  "></i>
+                            
+                            call</button>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="bg-white p-4 rounded-sm mt-4 shadow-lg">
+                <div class="sm:flex justify-between">
+                    <img src="images/emergency.png" class="bg-red-200 py-2 size-10 rounded-sm" alt="">
+                    <img src="images/heart.svg " class="size-7 " alt="">
+
+                </div>
+                    <h1 class="text-black font-bold  ">Bangladesh Railway Helpline </h1>
+                    <p class="text-sm">Bangladesh Railway </p>
+                    <h3 class="font-bold text-black mb-1">163</h3>
+                    <p class="bg-gray-200 p-1 w-13 rounded-xl text-center mb-2">Travel</p>
+                    <div class="sm:flex gap-2">
+                        <div >                 
+                            <button class="rounded-md w-20 border border-gray-400"  >
+                                <i class="fa-solid fa-copy "></i>
+                                copy</button>
+                        </div>
+                       <div > 
+                        <button class="bg-green-600 w-20 rounded-md  text-white  ">
+                            <i class="fa-solid fa-phone text-green-200  "></i>
+                            
+                            call</button>
+                    </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="max-w-2xl m-auto bg-white rounded-sm w-[400px] h-[787px] mt-8 mr-15 ">
+                <div class="sm:flex justify-between items-center p-3 ">
+                    <p class="text-black font-bold text-sm"> <i class="fa-solid fa-clock text-gray-400"></i>
+                        Call History </p>
+                    <button class="text-white bg-green-600 w-21 rounded-lg">clear</button>
+                </div>
+
+                <div class="p-3">
+
+                    <div class="bg-gray-200 rounded-sm sm:flex justify-between items-center mb-2 ">
+                        <div class="p-1">
+                            <h1 class="font-semibold">Fire Service Number</h1>
+                        <h3>999</h3>
+                        </div>
+                        <p>11:36:58 AM</p>
+                    </div>
+
+                    <div class="bg-gray-200 rounded-sm sm:flex justify-between items-center mb-2">
+                        <div class="p-1">
+                            <h1 class="font-semibold ">National Emergency Number</h1>
+                        <h3>1994-999999</h3>
+                        </div>
+                        <p>11:36:58 AM</p>
+                    </div>
+
+                    <div class="bg-gray-200 rounded-sm sm:flex justify-between items-center mb-2">
+                        <div>
+                            <h1 class="font-semibold">Fire Service Number</h1>
+                        <h3>999</h3>
+                        </div>
+                        <p>11:36:58 AM</p>
+                    </div>
+                    <div class="bg-gray-200 rounded-sm sm:flex justify-between items-center mb-2">
+                        <div>
+                            <h1 class="font-semibold">Bangladesh Railway Helpline </h1>
+                        <h3>999</h3>
+                        </div>
+                        <p>11:36:58 AM</p>
+                    </div>
+                    <div class="bg-gray-200 rounded-sm sm:flex justify-between items-center mb-2">
+                        <div>
+                            <h1 class="font-semibold">Fire Service Number</h1>
+                        <h3>999</h3>
+                        </div>
+                        <p>11:36:58 AM</p>
+                    </div>
+                    <div class="bg-gray-200 rounded-sm sm:flex justify-between items-center mb-2">
+                        <div>
+                            <h1 class="font-semibold">Anti-Corruption Helpline</h1>
+                        <h3>999</h3>
+                        </div>
+                        <p>11:36:58 AM</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        
+             
     
+    </main>
+    <footer></footer>
 </body>
 </html>
